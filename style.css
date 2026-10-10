@@ -116,7 +116,31 @@ nav a:hover {
     text-align: center;
     background-color: #dceeff;
 }
+/* events section*/
+.events{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
 
+.event-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card{
+    background-color: #f4f7fc;
+    width: 230px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+.event-card h3 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
 /* Footer */
 footer {
     background-color: #102a43;
